@@ -36,9 +36,6 @@
 </head>
 
 <body class="home front-page">
-    <a href="https://wa.me/971585231390" class="whatsapp-button" target="_blank">
-        <img src="assets/images/WhatsApp_icon.png" alt="WhatsApp" width="50px" height="50px" />
-    </a>
 
     <div id="loader" class="preloader pr__dark">
         <span class="loading">
@@ -58,20 +55,10 @@
                 <ul data-uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 100; repeat: true;">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#pr__services">Services</a></li>
-                    <li><a href="#pr__works">Works</a></li>
+                    <li><a href="#pr__clients__logos">References</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#pr__contact">Contact</a></li>
                 </ul>
-                <div class="lang">
-                    <div data-uk-form-custom="target: true">
-                        <select id="languageSwitcherMobile" onchange="changeLanguageMobile()">
-                            <option value="index.html" selected>EN</option>
-                            <option value="tr/index.html">TR</option>
-                        </select>
-                        <span></span>
-                        <i class="icon pr-chevron-down"></i>
-                    </div>
-                </div>
             </nav>
 
         </div><!-- Off Canvas Bar End -->
@@ -113,22 +100,11 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <li><a href="#pr__works">Works</a></li>
+                                    <li><a href="#pr__clients__logos">References</a></li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="#pr__contact">Contact</a></li>
                                 </ul>
                             </nav>
-
-                            <div class="lang">
-                                <div data-uk-form-custom="target: true">
-                                    <select id="languageSwitcher" onchange="changeLanguage()">
-                                        <option value="index.html" selected>EN</option>
-                                        <option value="tr/index.html">TR</option>
-                                    </select>
-                                    <span></span>
-                                    <i class="icon pr-chevron-down"></i>
-                                </div>
-                            </div>
                         </div>
                         <div class="navbar-tigger" data-uk-toggle="target: #navbar-mobile">
                             <span></span>
@@ -278,108 +254,45 @@
                 </div>
             </section><!-- Section: Services End -->
 
-
             <hr class="pr__vr__section">
-            <section class="pr__works pr__section section-slider uk-section uk-section-large" id="pr__works">
+            <section class="pr__apps pr__section uk-section uk-section-large" id="pr__apps">
                 <div class="section-outer">
                     <div class="section-heading">
                         <div class="uk-container">
                             <div class="inner">
                                 <div class="left">
                                     <hr class="line pr__hr__secondary">
-                                    <h2 class="title uk-h1">Works.</h2>
-                                    <span class="subtitle pr__heading__secondary">Things we've made</span>
+                                    <h2 class="title uk-h1">Shopify Apps.</h2>
+                                    <span class="subtitle pr__heading__secondary">Our published apps on the Shopify App Store</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="section-inner">
-                        <div class="uk-container uk-container-no">
-                            <div class="items-listing works-boxes works-slider owl-carousel" data-items="4"
-                                data-margin="30" data-loop="true" data-center="true" data-autoplay="true"
-                                data-dots="true">
-
-                                <div class="item work-box">
-                                    <div class="outer">
-                                        <div class="image pr__image__cover pr__ratio__square"
-                                            data-src="assets/images/Works/Jura.png" data-uk-img=""></div>
-                                        <div class="inner">
-                                            <h3 class="title uk-h4">Jurastore.co and Jurastore.ae</h3>
-                                            <p class="category">End to end Shopify Setup</p>
-                                            <a href="https://jurastore.ae" class="link uk-position-cover"
-                                                target="_blank"></a>
-                                        </div>
+                        <div class="uk-container">
+                            <div class="items-listing apps-boxes uk-grid uk-grid-match uk-grid-medium uk-child-width-1-2@m" data-uk-grid="">
+                                <div class="item app-box style-one">
+                                    <div class="inner">
+                                        <i class="overlay-icon icon pr-line-pricetags"></i>
+                                        <h5 class="title uk-h5">DX Custom Price Rule Editor</h5>
+                                        <p class="description">Create advanced, conditional pricing rules for your Shopify store with custom logic — flexible discounts and segment-based pricing without code.</p>
+                                        <a href="https://apps.shopify.com/dx-custom-price-rule-editor" target="_blank" rel="noopener" class="app-link uk-button uk-button-default">View on Shopify App Store <i class="icon pr-arrow-right"></i></a>
                                     </div>
                                 </div>
-
-                                <div class="item work-box">
-                                    <div class="outer">
-                                        <div class="image pr__image__cover pr__ratio__square"
-                                            data-src="assets/images/Works/citimodernweb.png" data-uk-img=""></div>
-                                        <div class="inner">
-                                            <h3 class="title uk-h4">Citimodern.com</h3>
-                                            <p class="category">Shopify Setup + Custom App</p>
-                                            <a href="https://citimodern.com" class="link uk-position-cover"
-                                                target="_blank"></a>
-                                        </div>
+                                <div class="item app-box style-one">
+                                    <div class="inner">
+                                        <i class="overlay-icon icon pr-line-chat"></i>
+                                        <h5 class="title uk-h5">DX Chat Button All Together</h5>
+                                        <p class="description">All-in-one chat button that brings WhatsApp, Messenger, and more together — give your customers every way to reach you, in one place.</p>
+                                        <a href="https://apps.shopify.com/dx-chat-button-all-together" target="_blank" rel="noopener" class="app-link uk-button uk-button-default">View on Shopify App Store <i class="icon pr-arrow-right"></i></a>
                                     </div>
                                 </div>
-
-                                <div class="item work-box">
-                                    <div class="outer">
-                                        <div class="image pr__image__cover pr__ratio__square"
-                                            data-src="assets/images/Works/hibboux.png" data-uk-img=""></div>
-                                        <div class="inner">
-                                            <h3 class="title uk-h4">Hibboux.com</h3>
-                                            <p class="category">Custom Accounting and Shipping Integrations</p>
-                                            <a href="#" class="link uk-position-cover"></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="item work-box">
-                                    <div class="outer">
-                                        <div class="image pr__image__cover pr__ratio__square"
-                                            data-src="assets/images/Works/Instyle.png" data-uk-img=""></div>
-                                        <div class="inner">
-                                            <h3 class="title uk-h4">Instyler.com</h3>
-                                            <p class="category">Custom Shopify Section</p>
-                                            <a href="https://www.instyler.com/" class="link uk-position-cover"
-                                                target="_blank"></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="item work-box">
-                                    <div class="outer">
-                                        <div class="image pr__image__cover pr__ratio__square"
-                                            data-src="assets/images/Works/tsd.png" data-uk-img=""></div>
-                                        <div class="inner">
-                                            <h3 class="title uk-h4">tsdperformance.com</h3>
-                                            <p class="category">Custom Shopify Section</p>
-                                            <a href="https://www.tsdperformance.com/" class="link uk-position-cover"
-                                                target="_blank"></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="item work-box">
-                                    <div class="outer">
-                                        <div class="image pr__image__cover pr__ratio__square"
-                                            data-src="assets/images/Works/danskweb.png" data-uk-img=""></div>
-                                        <div class="inner">
-                                            <h3 class="title uk-h4">Dansk Trailer</h3>
-                                            <p class="category">Custom Theme Development</p>
-                                            <a href="#" class="link uk-position-cover"></a>
-                                        </div>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-            </section><!-- Section: Works End -->
+            </section><!-- Section: Apps End -->
+
 
             <div class="pr__achievement__section uk-section uk-section-small uk-text-center">
             <div class="uk-container">
@@ -466,131 +379,174 @@
             <div class="uk-container">
                 <hr class="pr__hr__section">
                 <div class="section-outer uk-padding uk-padding-remove-bottom uk-padding-remove-horizontal">
-                    <div class="uk-flex uk-flex-around uk-flex-middle uk-grid uk-grid-large" data-uk-grid="">
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://citimodern.com" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/citimodern.webp" alt="Citimodern">
+                    <div class="section-heading uk-text-center uk-margin-large-bottom">
+                        <hr class="line pr__hr__secondary">
+                        <h2 class="title uk-h1">References.</h2>
+                        <span class="subtitle pr__heading__secondary">Brands we've worked with</span>
+                    </div>
+                    <div class="clients-logos-slider owl-carousel" data-loop="true" data-autoplay="true" data-margin="40">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://www.koctas.com.tr" target="_blank" rel="noopener" aria-label="Open Koçtaş website in new tab">
+                                    <img src="assets/images/brands/koctas-light.webp" alt="Koçtaş">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://hibboux.com" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/hibboux.webp" alt="Hibboux">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://tr.hibboux.com" target="_blank" rel="noopener" aria-label="Open Hibboux website in new tab">
+                                    <img src="assets/images/brands/hibboux-light.webp" alt="Hibboux">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://jurastore.ae" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/jurastore.avif" alt="Jurastore">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://www.aquaflorya.com" target="_blank" rel="noopener" aria-label="Open Aquaflorya website in new tab">
+                                    <img src="assets/images/brands/aquaflorya-light.webp" alt="Aquaflorya">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://krijen.com" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/krijen.webp" alt="Krijen">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://www.beylikduzumigrosavm.com" target="_blank" rel="noopener" aria-label="Open Beylikdüzü Migros AVM website in new tab">
+                                    <img src="assets/images/brands/beylikduzu-migros-light.webp" alt="Beylikdüzü Migros AVM">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://bosphorusleather.com" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/leather.png" alt="Leather">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://lampago.com" target="_blank" rel="noopener" aria-label="Open Lampago website in new tab">
+                                    <img src="assets/images/brands/lampago-light.webp" alt="Lampago">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://lebeautiful.co" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/lebeauty.png" alt="Le Beauty">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://instyler.com" target="_blank" rel="noopener" aria-label="Open InStyler website in new tab">
+                                    <img src="assets/images/brands/instyler-light.webp" alt="InStyler">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://www.loeasywear.com" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/LOGO_easywear.avif"
-                                        alt="Lo Easy Wear">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://glintonline.com.tr" target="_blank" rel="noopener" aria-label="Open Glint Online website in new tab">
+                                    <img src="assets/images/brands/glintonline-light.webp" alt="Glint Online">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://www.tsdperformance.com" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/TSD_logo.webp"
-                                        alt="TSD Performance">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://bosphorusleather.com" target="_blank" rel="noopener" aria-label="Open Bosphorus Leather website in new tab">
+                                    <img src="assets/images/brands/bosphorusleather-light.webp" alt="Bosphorus Leather">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://www.promo-remorque.fr" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/dansktrailer.png"
-                                        alt="Dansktrailer">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://euro-trailer.dk" target="_blank" rel="noopener" aria-label="Open Euro Trailer website in new tab">
+                                    <img src="assets/images/brands/euro-trailer-light.webp" alt="Euro Trailer">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://brooklynhome.mx" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/brookhome.png" alt="Brookhome">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://citimodern.com" target="_blank" rel="noopener" aria-label="Open Citi Modern website in new tab">
+                                    <img src="assets/images/brands/citimodern-light.webp" alt="Citi Modern">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://www.promo-remorque.fr" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/promo.avif" alt="Promo Remorque">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://protesca.com" target="_blank" rel="noopener" aria-label="Open Protesca website in new tab">
+                                    <img src="assets/images/brands/protesca-light.webp" alt="Protesca">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://shop.fomilk.com" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/fomilk.png" alt="Fomilk">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://krijen.com" target="_blank" rel="noopener" aria-label="Open Krijen website in new tab">
+                                    <img src="assets/images/brands/krijen-light.webp" alt="Krijen">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://stock.esenteks.com" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/essen.avif" alt="Essen">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://loeasywear.com" target="_blank" rel="noopener" aria-label="Open LOE Easywear website in new tab">
+                                    <img src="assets/images/brands/loeasywear-light.webp" alt="LOE Easywear">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://www.euro-trailer.dk" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/eurotrailer.avif"
-                                        alt="Eurotrailer">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://shop.fomilk.com" target="_blank" rel="noopener" aria-label="Open Fomilk website in new tab">
+                                    <img src="assets/images/brands/fomilk-light.webp" alt="Fomilk">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://www.instyler.com" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/instyler.webp" alt="Instyler">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://promo-remorque.fr" target="_blank" rel="noopener" aria-label="Open Promo Remorque website in new tab">
+                                    <img src="assets/images/brands/promo-remorque-light.webp" alt="Promo Remorque">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://chocolate.com.mx" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/chocolate.webp" alt="Chocolate">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://lebeautiful.co" target="_blank" rel="noopener" aria-label="Open Le Beautiful website in new tab">
+                                    <img src="assets/images/brands/lebeautiful-light.webp" alt="Le Beautiful">
                                 </a>
                             </div>
                         </div>
-                        <div class="item logo">
-                            <div class="inner">
-                                <a href="https://audiocom.net.au" target="_blank">
-                                    <img class="client-logo" src="assets/images/logos/Audiocom.avif" alt="Audiocom">
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://chocolate.com.mx" target="_blank" rel="noopener" aria-label="Open Chocolate website in new tab">
+                                    <img src="assets/images/brands/chocolate-mx-light.webp" alt="Chocolate">
                                 </a>
                             </div>
                         </div>
-                    </div><!-- Grid End -->
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://gabriano.com.tr" target="_blank" rel="noopener" aria-label="Open Gabriano website in new tab">
+                                    <img src="assets/images/brands/gabriano-light.webp" alt="Gabriano">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://zeyrekcinilihamam.com" target="_blank" rel="noopener" aria-label="Open Zeyrek Çinili Hamam website in new tab">
+                                    <img src="assets/images/brands/zeyrek-hamam-light.webp" alt="Zeyrek Çinili Hamam">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://dopigo.com" target="_blank" rel="noopener" aria-label="Open Dopigo website in new tab">
+                                    <img src="assets/images/brands/dopigo-light.webp" alt="Dopigo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://3rdcultureproject.com" target="_blank" rel="noopener" aria-label="Open 3rd Culture Project website in new tab">
+                                    <img src="assets/images/brands/3rdculture-light.webp" alt="3rd Culture Project">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://mertsonhome.com" target="_blank" rel="noopener" aria-label="Open Mertson Home website in new tab">
+                                    <img src="assets/images/brands/mertson-light.webp" alt="Mertson Home">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item client-item">
+                            <div class="client-logo">
+                                <a href="https://nomamobilya.com" target="_blank" rel="noopener" aria-label="Open Noma Mobilya website in new tab">
+                                    <img src="assets/images/brands/nomamobilya-light.webp" alt="Noma Mobilya">
+                                </a>
+                            </div>
+                        </div>
+                    </div><!-- Logos Slider End -->
                 </div><!-- Outer End -->
             </div><!-- Container End -->
         </div><!-- Section: Clients Logos End -->
@@ -626,9 +582,7 @@
         <div class="pr__footer__center uk-section uk-section-small">
             <div class="uk-container">
                 <ul>
-                    <li>PIRAYE B.V.<br>Amsterdam / Netherlands</li>
                     <li>DIGITALX WEB DESIGN<br>Dubai / United Arab Emirates</li>
-                    <li>PIRAYE REKLAM SANAYİ LTD. STI.<br>İstanbul / Türkiye</li>
                 </ul>
                 <p class="uk-text-center">Contact us: <a
                         href="mailto:support@dxwebdesign.com">support@dxwebdesign.com</a> — Reach out in any
@@ -671,16 +625,6 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/validate.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-        function changeLanguage() {
-            var language = document.getElementById("languageSwitcher").value;
-            window.location.href = language;  // Kullanıcının seçtiği sayfaya yönlendirme
-        }
-        function changeLanguageMobile() {
-            var language = document.getElementById("languageSwitcherMobile").value;
-            window.location.href = language;  // Kullanıcının seçtiği sayfaya yönlendirme
-        }
-    </script>
 </body>
 
 </html>

@@ -35,10 +35,6 @@
 </head>
 
 <body class="page-template page-template-default single single-service-item">
-
-    <a href="https://wa.me/971585231390" class="whatsapp-button" target="_blank">
-        <img src="assets/images/WhatsApp_icon.png" alt="WhatsApp" width="50px" height="50px" />
-    </a>
     
     <div id="loader" class="preloader pr__dark">
         <span class="loading">
@@ -62,16 +58,6 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="#pr__contact">Contact</a></li>
                 </ul>
-                <div class="lang">
-                    <div data-uk-form-custom="target: true">
-                        <select id="languageSwitcherMobile" onchange="changeLanguageMobile()">
-                            <option value="index.html" selected>EN</option>
-                            <option value="tr/index.html">TR</option>
-                        </select>
-                        <span></span>
-                        <i class="icon pr-chevron-down"></i>
-                    </div>
-                </div>
             </nav>
 
         </div><!-- Off Canvas Bar End -->
@@ -119,17 +105,6 @@
                                     <li><a href="#pr__contact">Contact</a></li>
                                 </ul>
                             </nav>
-
-                            <div class="lang">
-                                <div data-uk-form-custom="target: true">
-                                    <select id="languageSwitcher" onchange="changeLanguage()">
-                                        <option value="index.html" selected>EN</option>
-                                        <option value="tr/index.html">TR</option>
-                                    </select>
-                                    <span></span>
-                                    <i class="icon pr-chevron-down"></i>
-                                </div>
-                            </div>
                         </div>
                         <div class="navbar-tigger" data-uk-toggle="target: #navbar-mobile">
                             <span></span>
@@ -306,9 +281,7 @@
             <div class="pr__footer__center uk-section uk-section-small">
                 <div class="uk-container">
                     <ul>
-                        <li>PIRAYE B.V.<br>Amsterdam / Netherlands</li>
                         <li>DIGITALX WEB DESIGN<br>Dubai / United Arab Emirates</li>
-                        <li>PIRAYE REKLAM SANAYİ LTD. STI.<br>İstanbul / Türkiye</li>
                     </ul>
                     <p class="uk-text-center">Contact us: <a
                             href="mailto:support@dxwebdesign.com">support@dxwebdesign.com</a> — Reach out in any
@@ -350,16 +323,6 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/validate.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-        function changeLanguage() {
-            var language = document.getElementById("languageSwitcher").value;
-            window.location.href = language;  // Kullanıcının seçtiği sayfaya yönlendirme
-        }
-        function changeLanguageMobile() {
-            var language = document.getElementById("languageSwitcherMobile").value;
-            window.location.href = language;  // Kullanıcının seçtiği sayfaya yönlendirme
-        }
-    </script>
 </body>
 
 </html>

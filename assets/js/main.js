@@ -60,7 +60,7 @@ jQuery(document).ready(function ($) {
     // Main Sliders
     // ------------------------------------------------------
 
-    $(".owl-carousel").each(function (index) {
+    $(".owl-carousel").not(".clients-logos-slider").each(function (index) {
         var items = $(this).data('items'),
             autoplay = $(this).data('autoplay'),
             margin = $(this).data('margin'),
@@ -95,6 +95,33 @@ jQuery(document).ready(function ($) {
                 1600: {
                     items: items
                 }
+            }
+        });
+    });
+
+    // Clients Logos Slider — continuous auto-scroll
+    $(".clients-logos-slider").each(function () {
+        var margin = $(this).data('margin');
+        if (typeof margin === 'undefined') { margin = 40; }
+        $(this).owlCarousel({
+            items: 6,
+            margin: margin,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2500,
+            autoplayHoverPause: true,
+            smartSpeed: 1500,
+            slideTransition: 'linear',
+            dots: false,
+            nav: false,
+            mouseDrag: true,
+            touchDrag: true,
+            responsive: {
+                0: { items: 2 },
+                480: { items: 3 },
+                768: { items: 4 },
+                1024: { items: 5 },
+                1280: { items: 6 }
             }
         });
     });
